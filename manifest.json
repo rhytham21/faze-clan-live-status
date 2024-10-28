@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Faze Clan Streamers Status",
+    "version": "1.0",
+    "description": "Check if FaZe Clan streamers are live",
+    "permissions": ["storage", "https://api.twitch.tv/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    }
+  }
